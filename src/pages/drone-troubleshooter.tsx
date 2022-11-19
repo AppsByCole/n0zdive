@@ -13,7 +13,7 @@ const Troubleshooter: NextPage = () => {
               Trouble <span className="text-red-600">.</span> Gone
             </h1>
             <p>
-              So you're having trouble with your drone?
+              Are you having trouble with your drone?
             </p>
             <p>
               Well we can figure this out together.
