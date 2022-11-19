@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply
+  bg-gradient-to-b from-zinc-500 to-zinc-800
+  text-gray-100
+  noscroll
+}
+
+.noscroll::-webkit-scrollbar {
+  display: none
+}
