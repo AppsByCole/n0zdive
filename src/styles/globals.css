@@ -12,6 +12,7 @@
     hover:bg-neutral-600
     hover:rounded-md
     hover:shadow-lg
+    hover:text-gray-300
     items-center 
     justify-center 
     m-2
@@ -22,6 +23,7 @@
   }
   .page {
     @apply
+    bg-gradient-to-b from-zinc-600 via-zinc-400 to-zinc-600
     flex 
     flex-col 
     h-full
@@ -32,7 +34,6 @@
 
 body {
   @apply
-  bg-gradient-to-b from-zinc-500 to-zinc-800
   text-gray-100
   noscroll
 }
