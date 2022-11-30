@@ -22,6 +22,15 @@
     select-none
     shadow-2xl
   }
+  .card {
+    @apply
+    flex 
+    flex-col
+    bg-neutral-500
+    p-2
+    rounded-lg
+    shadow-2xl
+  }
   .page {
     @apply
     bg-gradient-to-b from-zinc-600 via-zinc-400 to-zinc-600

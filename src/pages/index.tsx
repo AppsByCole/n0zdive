@@ -11,6 +11,12 @@ const Home: NextPage = () => {
           >
           Drone troubleshooter
         </Link>
+        <Link 
+          className="button"
+          href='/frustration'
+          >
+          Frustration Machine
+        </Link>
       </div>
     </div>
   );
